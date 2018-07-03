@@ -1,6 +1,5 @@
 function removeTransition(event) {
     if (event.propertyName !== 'transform') { return }
-    console.log("DUPA")
     this.classList.remove('playing')
 }
 
